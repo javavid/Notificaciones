@@ -10,6 +10,13 @@ namespace Notificaciones
     {
         static void Main(string[] args)
         {
+            AvisoTrafico Avi1 = new AvisoTrafico();
+            Avi1.MostrarAviso();
+
+            Console.WriteLine(" ");
+
+            AvisoTrafico Avi2 = new AvisoTrafico("transito de envigado","ha sido sancionado","19/09/2023");
+            Avi2.MostrarAviso();
         }
     }
 }
